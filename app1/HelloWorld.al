@@ -6,7 +6,7 @@ pageextension 70000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world');
+        Message('App published: Hello world from navdev-00001 branch!!!');
     end;
 }
 
