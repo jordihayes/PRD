@@ -1,5 +1,22 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Attach: Your own server",
+            "type": "al",            
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://bcserver1",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,            
+            "tenant": "default",
+            "schemaUpdateMode":  "ForceSync"
+        }
     ]
 }
