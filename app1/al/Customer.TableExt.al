@@ -17,5 +17,11 @@ tableextension 70000 "Customer.TableExt" extends Customer
             Caption = 'Dummy Boolean 3';
             DataClassification = ToBeClassified;
         }
+        field(70003; DummyText1; text[50])
+        {
+            Caption = 'Dummy Text 1';
+            DataClassification = ToBeClassified;
+        }
+
     }
 }
