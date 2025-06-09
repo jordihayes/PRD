@@ -17,5 +17,10 @@ tableextension 70001 "Vendor.TableExt" extends Vendor
             Caption = 'DummyText3';
             DataClassification = ToBeClassified;
         }
+        field(70003; DummyText4; text[10])
+        {
+            Caption = 'DummyText4';
+            DataClassification = ToBeClassified;
+        }
     }
 }
