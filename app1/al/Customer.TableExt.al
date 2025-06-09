@@ -32,7 +32,11 @@ tableextension 70000 "Customer.TableExt" extends Customer
             Caption = 'Dummy Text 3';
             DataClassification = ToBeClassified;
         }
+<<<<<<< HEAD
         field(70006; DummyText4; text[50])
+=======
+        field(70007; DummyText4; text[10])
+>>>>>>> origin/NAVDEV-00005
         {
             Caption = 'Dummy Text 4';
             DataClassification = ToBeClassified;
